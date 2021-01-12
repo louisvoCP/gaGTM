@@ -11,3 +11,12 @@ var firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
+
+$('.testBtn').on('click', function(){
+    console.log("button is working and connected to JQ")
+    analytics.logEvent('select_content', {
+        content_type: 'image',
+        content_id: 'P12453',
+        items: [{ name: 'Kittens' }]
+      });
+})

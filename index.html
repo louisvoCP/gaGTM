@@ -38,13 +38,24 @@
   <body>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NG79N93"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <h1>Hello Plunker!</h1>
+    <h1>Hello Louis and no on else!</h1>
     
-    <button href="second.html" class="locoPlace" onclick="dataLayer.push({
+    
+    <a href="second.html" class="locoPlace" onclick="dataLayer.push({
       'event': 'video',
       'tripCategory' : 'something',
       'tripLocation' : 'somewhere'
-    });">Second Page</button>
+      });">
+      <button>Second Page</button>
+    </a>
+    <a href="third.html" class="locoPlace" onclick="dataLayer.push({
+      'event': 'video',
+      'tripCategory' : 'something',
+      'tripLocation' : 'somewhere'
+      });">
+      <button>Third Page</button>
+    </a>
+    
     <form>
       First name: <input id="fname" type="text" name="fname" ><br>
       Last name: <input id="lname" type="text" name="lname"><br>
@@ -52,8 +63,8 @@
     </form>
     <p>Youtube Video below</p>
 
-    <button><a href="https://www.youtube.com">Youtube</a></button>
-    <button><a href="https://www.Facebook.com">Facebook</a></button>
+    <a href="https://www.youtube.com"><button>Youtube</button></a>
+    <a href="https://www.Facebook.com"><button>Facebook</button></a>
     
 
     <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" onclick="dataLayer.push({

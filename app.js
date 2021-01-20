@@ -19,4 +19,4 @@ $('.testBtn').on('click', function(){
         content_id: 'P12453',
         items: [{ name: 'Kittens' }]
       });
-})
+}) 
